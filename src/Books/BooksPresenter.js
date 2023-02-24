@@ -12,10 +12,6 @@ export default class BooksPresenter {
   };
 
   addBook(b){
-    const bookPm = {
-      name: "Ultra Fast Testing",
-      author: "Phil Scrace"
-    };
     booksRepository.addBook(b);
 
   }
