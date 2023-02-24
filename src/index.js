@@ -11,7 +11,7 @@ function App() {
    }
    
   async function reset(){
-    await booksPresenter.addBook({name: "BFTDD", author:"Phil Scrace"});
+    await booksPresenter.reset();
   } 
 
   React.useEffect(() => {

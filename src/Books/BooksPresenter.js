@@ -11,12 +11,12 @@ export default class BooksPresenter {
 
   };
 
-  addBook(){
+  addBook(b){
     const bookPm = {
       name: "Ultra Fast Testing",
       author: "Phil Scrace"
     };
-    booksRepository.addBook(bookPm);
+    booksRepository.addBook(b);
 
   }
 
